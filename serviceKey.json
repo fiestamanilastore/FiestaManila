@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "fiestamanila1",
+  "private_key_id": "f2444b1be6d08dc756891cf935a156f18a43c0a9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDmehdCZKPML5Fr\nIYpdPwmdfzIJ2NKjxt7tJaBkKyz27UdNhVVI6vSVp/ZOE1KduPq7QXN1WIQ876T5\nT89guxCqn6Em15DfFm+e7e0mcVe9P5e5iBsbJwX0sDhzt1jGIpNcEcGuCghVtJ5w\nZ6a0YgkltcvFHOuEEKBGrEZxkYh7By9G+EWRe5OCvEjWKpTfTCG75lTbIqR2BjeO\nw5mHgDpFMUlhq6otqo1KMDcH1OpY4cmGPxr8GZQdLycsYbStxWoE/l3pR+F7yeJC\nknFnyhhxgon/C1+vVpw2kOiQ/5QtHKO0yKbGzKm+uiVSUICB5XCBd0xG0ti5HXnG\nzqthc3NjAgMBAAECggEAcPPb61N0PREA9R6Cd5F5zmC0bsP+83n27gU3NnA8gKWo\nALN8KRjRFnkzCm+I2Th7VQNOKO/hGxYdZXv6N79l+yDxcx5JZzPRL3QOef0pUVvV\nqX0tP6Df19v3RqrQDIaMbp5bK8bJ7+rtjUwXFKdJMVyHyYoTWG1nh0tN2MHIv/XG\ntDZBXTNTACPqK8Gs4VCroCiwpT5RLSgMe8rV+XnZ/oCAr/Jxon2dcpC6peUQtDp9\nmn5+bhHPssq2R0kdSXPCRBwLkUzlaNKWx4652l+ccSSg/BVHi+V8R82QWOJnarnM\niYYplLZrOJ5hW38hgO9y2zGlcSraMy5FZf9EPr401QKBgQD75kwwvapjR03ttSzo\nngUey/psXsL+His/OuF+bPGLsIbg/zTO9dWcdkMNcr7AqtVglkL8pSc8sujuQat/\nxUWEeCwqXKgemFKJLzJpHPbDLXsRs0lw3BbHKDpGTLkKxls7UzWbs4wHio1BHdYu\nVFeIbFGFHWpmBa5Mxx9aghPSPwKBgQDqOoWUTsSxbQ9acSnK2o+07Wya6eNtKsjR\n83g+ZwwoVL8S3qS0tIo85IkWWkNARRZtGSCxEl7jrMbZdVbY43AfEO7yDJIP9RfL\nAS61L+7ywq8AIJJEtKyfvDMn8a/2wmcDK1uJNYiVbURidmHBh3EcYkAB/EPK+EN9\nKexP5WZN3QKBgQDuUfB7nLX7v5Zm8yZN3lMR1AJVTUJGkdxwshBtQD024Ah8Dnez\n5rn2kZzWuFzog7fk7cTqqoX403u1DsRm2gjvT5LZcVhNuec8iz6yXAjKl9j74hf1\ngwS538FiiWv4Wbou4oaxjKlK6TbDCKt+oaU/GNv3iOEFLRK+6RUs2CxQmQKBgGcX\nfOWqyZ3B/6jx99AF5Ixgl5WTbfsFgsANphXpKwuxSSwX/GxgrhthBwlkjwcBoX5B\nOgdVq5gP2rGpmKD7ccTqohC9AaiuWluKWLF8uHH2yCmJLHe7AeOIZQems6krJUXa\n1n4MpuIF5rxjmGEiqOEySTPWgUwbezDiu9Tqhd2tAoGBAMMtJiHZNHuJgvmNHdCe\nOofhEvKHvMRzHuT/BGxStYxerP3Zdl7HK2WVHtY9K5PV2qCjVoze34ze86ls+xAL\ni6vynQ/aY3nwhu2jTLKcezgGhdu8OCWK3RF6gKi5mwqpZRNPSKXSh+bdnSr/V4o8\n/Hiz/5a216tW85IkbipgMJjK\n-----END PRIVATE KEY-----\n",
+  "client_email": "fiestamanilaservice@fiestamanila1.iam.gserviceaccount.com",
+  "client_id": "106585552312573513974",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/fiestamanilaservice%40fiestamanila1.iam.gserviceaccount.com"
+}
