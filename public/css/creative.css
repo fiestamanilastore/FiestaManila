@@ -496,7 +496,7 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: 300px;
 }
 
 .img-thumbnail {
@@ -573,14 +573,10 @@ pre code {
 
 .footer-container {
   width: 100%;
-
-  /* padding-left: 0px;
+  padding-right: 35px;
+  padding-left: 35px;
   margin-right: auto;
-  margin-left: auto; */
-}
-
-footerContainer {
-
+  margin-left: auto;
 }
 
 @media (min-width: 576px) {
@@ -604,6 +600,12 @@ footerContainer {
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .footer-container {
+    max-width: 1300px;
   }
 }
 
