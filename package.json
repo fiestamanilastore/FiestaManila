@@ -1,7 +1,7 @@
 {
-  "name": "orangeconstruction",
+  "name": "fiestamanila",
   "version": "8.9.4",
-  "description": "Orange Construction Website",
+  "description": "Fiesta Manila Website",
   "main": "app.js",
   "dependencies": {
     "@sendgrid/mail": "^6.3.1",
