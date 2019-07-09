@@ -1,10 +1,3 @@
-/*
-Huey Padua
-Orange Construction
-UI/UX Design
-Fall 2018
-*/
-
 // Dependencies
 var express = require('express');
 var expressSession = require('express-session');
@@ -56,36 +49,6 @@ app.use(expressValidator({
 }));
 
 app.get('/', function(req, res) {
-  res.render('index');
-});
-
-// post quote form from client to be received on server
-app.post('/send_quote', function(req, res) {
-  var name = req.body.name,
-  email = req.body.email,
-  phone = req.body.phone,
-  workType = req.body.workType,
-  budget = req.body.budget,
-  message = req.body.message;
-  sgMail = require('@sendgrid/mail');
-  console.log("Quote Form received")
-  console.log(name+"\n"+email+"\n"+phone+"\n"+workType+"\n"+budget+"\n"+message);
-
-  // using SendGridAPI to process quote form to server
-  sgMail.setApiKey(process.env.SENDGRID_API_KEY);
-    var msg = {
-    // to be changed to client's email
-    to: 'steven@orange.construction',
-    from: email,
-    subject: 'Quote Form received from Orange Construction Website',
-    text: `Name: ${name},
-          Phone: ${phone},
-          Work Type: ${workType},
-          Budget: ${budget},
-          Message: ${message}`,
-  };
-  sgMail.send(msg);
-  console.log("message sent using sendgrid");
   res.render('index');
 });
 
