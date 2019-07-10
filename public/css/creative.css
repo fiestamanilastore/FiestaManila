@@ -10851,6 +10851,7 @@ header.masthead h1 {
   #menuContainer {
     height:100px;
     padding-top:280px;
+    margin-left:-100px;
   }
 
   .mt-menu {
@@ -10873,13 +10874,14 @@ header.masthead h1 {
     background-color:black;
     opacity:0.9;
     bottom:60px;
+    height:300px;
   }
   #mapDiv {
     margin-top:30px;
     margin-right:200px;
   }
   #footer {
-    width:630px;
+    width:430px;
     margin-left:-100px;
   }
   .col-4-edited {
