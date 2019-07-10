@@ -31,8 +31,8 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
   <img id="navbarLogo" src="../img/sm-logo.jpg" alt="">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" style="margin-left:-9%;"href="#page-top">Fiesta Manila</a>
+    <div class="container" id="navContainer">
+      <a class="navbar-brand js-scroll-trigger"href="#page-top">Fiesta Manila</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -73,10 +73,11 @@
   </header>
 
   <!-- About Section -->
-  <section class="page-section bg-primary" id="about" style="height:590px;margin-top:50px;">
-    <div class="container" style="margin-top:-100px;">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center" style="top:20px;">
+  <!-- <section class="page-section bg-primary" id="about" style="height:590px;margin-top:50px;"> -->
+  <section class="page-section bg-primary" id="about">
+    <div class="container">
+      <div class="row justify-content-center" id="aboutPics">
+        <div class="col-lg-8 text-center" id="aboutContainer">
           <h2 class="text-black mt-0" style="  font-family: 'Permanent Marker', cursive;">Fiest Manila</h2>
           <h2 class="text-black mt-0" style="font-size:20px;">Southport Asia Mart</h2>
           <hr class="divider light my-2">
@@ -96,20 +97,20 @@
   </section>
 
   <!-- Menu Section -->
-  <section class="page-section" id="menu" style="height:625px;">
-    <div class="container" style="height:400px !important;margin-top:-100px;">
-      <h2 class="text-center mt-0" style="top:40px !important;">Catering</h2>
+  <section class="page-section" id="menu" >
+    <div class="container" id="menuContainer">
+      <h2 class="text-center mt-0">Catering</h2>
       <hr class="divider my-4">
 
       <!--Menu Row 1 -->
-      <div class="row" style=";padding-bottom:300px;">
-        <div class="col-lg-menu col-md-6 text-center" style="">
+      <div class="row" id="menuRow">
+        <div class="col-lg-menu col-md-6 text-center">
           <div class="mt-menu">
             <i class="fas fa-4x fa-utensils text-primary mb-4"></i>
             <h3 class="">Entrees</h3>
             <br>
             <!-- <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p> -->
-            <table style="width:100%;height:90%">
+            <table id=menuTable>
               <tr>
                 <th></th>
                 <th>Half Tray</th>
@@ -469,18 +470,12 @@
   </section>
 
   <!-- Contact Section -->
-  <section class="page-section" id="contact" style="position: relative;margin-top:50px; margin-bottom:20px;">
+  <section class="page-section" id="contact">
     <div class="container" style="margin-top:-100px;">
       <h2 class="mt-0 text-center">Find Us!</h2>
       <hr class="divider my-4">
       <div class="row justify-content-center">
-        <!-- <div class="col-lg-1 text-center" style="top:30px;">
-          <h2 class="mt-0">Find Us!</h2>
-          <hr class="divider my-4">
-          <br>
-        </div> -->
-        <!--Left-->
-        <div class="col-4-edited" style="background-color:black;opacity:0.9;width:100%;bottom:30px;">
+        <div class="col-4-edited" id="contactDiv">
             <br>
             <div class="left-block wrapper"style="font-size:1rem">
                 <div class="b b-adress">
@@ -519,7 +514,7 @@
             </div>
         </div>
         <!--Right-->
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6" id="mapDiv">
             <div class="google-map"><iframe width="600" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJMzCZvQwB2YgR5Kg8X_q_FH4&key=AIzaSyD0WUOlGgGAiMoBLXHVuACsU21372BcS8c " allowfullscreen></iframe></div>
             <script>
             var geocoder;
