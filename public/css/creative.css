@@ -10829,6 +10829,65 @@ header.masthead h1 {
   /* width:79rem !important; */
 }
 
+@media (min-width:375px) {
+  #navContainer {
+    margin-right:-20px;
+    margin-top:-20px;
+  }
+  #aboutPics {
+    height:600px;
+
+  }
+  #aboutContainer {
+    height:100px;
+    top:0px;
+    margin-top:-80px;
+    margin-bottom:100px;
+  }
+  #menu {
+    height:625px;
+    margin-top:-380px;
+  }
+  #menuContainer {
+    height:100px;
+    padding-top:280px;
+  }
+
+  .mt-menu {
+    padding-bottom:50px;
+  }
+
+  #menuRow {
+    /* padding-bottom:50px; */
+  }
+  #menuTable {
+    height:90%;
+    width:100%;
+  }
+
+  #contact {
+    padding-top:180px;
+  }
+
+  #contactDiv {
+    background-color:black;
+    opacity:0.9;
+    bottom:60px;
+  }
+  #mapDiv {
+    margin-top:30px;
+    margin-right:200px;
+  }
+  #footer {
+    width:630px;
+    margin-left:-100px;
+  }
+  .col-4-edited {
+    height:30rem;
+
+  }
+}
+
 @media (min-width: 500px) {
 
   #navContainer {
