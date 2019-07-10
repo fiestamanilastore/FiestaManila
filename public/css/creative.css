@@ -10851,7 +10851,7 @@ header.masthead h1 {
   #menuContainer {
     height:100px;
     padding-top:280px;
-    margin-left:-100px;
+    margin-left:-20px;
   }
 
   .mt-menu {
@@ -10881,7 +10881,7 @@ header.masthead h1 {
     margin-right:200px;
   }
   #footer {
-    width:430px;
+    width:580px;
     margin-left:-100px;
   }
   .col-4-edited {
