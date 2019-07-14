@@ -10637,7 +10637,7 @@ hr.light {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 0rem 0;
 }
 
 #mainNav {
@@ -10676,8 +10676,8 @@ hr.light {
 @media (min-width: 992px) {
   #mainNav {
     -webkit-box-shadow: none;
-    box-shadow:
-    background-color: white;
+    box-shadow: none;
+    background-color: transparent;
   }
   #mainNav .navbar-brand {
     color: black;
@@ -10826,335 +10826,98 @@ header.masthead h1 {
 
 #footer {
   padding-bottom: 1rem !important;
-  /* width:79rem !important; */
 }
 
 @media (min-width:375px) {
-  #navContainer {
-    margin-right:-20px;
-    margin-top:-20px;
-  }
-  #aboutPics {
-    height:600px;
-
-  }
-  #aboutContainer {
-    height:100px;
-    top:0px;
-    margin-top:-80px;
-    margin-bottom:100px;
-  }
-  #menu {
-    height:625px;
-    margin-top:-380px;
-  }
-  #menuContainer {
-    height:100px;
-    padding-top:280px;
-    margin-left:-20px;
-  }
-
-  .mt-menu {
-    padding-bottom:50px;
-  }
-
-  #menuRow {
-    /* padding-bottom:50px; */
-  }
-  #menuTable {
-    height:90%;
-    width:100%;
-  }
-
-  #contact {
-    padding-top:180px;
-  }
-
-  #contactDiv {
-    background-color:black;
-    opacity:0.9;
-    bottom:60px;
-    height:300px;
-  }
-  #mapDiv {
-    margin-top:30px;
-    margin-right:200px;
-  }
-  #footer {
-    width:580px;
-    margin-left:-100px;
-  }
-  .col-4-edited {
-    height:30rem;
-
-  }
-}
-
-@media (min-width: 500px) {
-
-  #navContainer {
-    margin-right:-20px;
-    margin-top:-20px;
-  }
-  #aboutPics {
-    height:600px;
-
-  }
-  #aboutContainer {
-    height:100px;
-    top:0px;
-    margin-top:-80px;
-    margin-bottom:100px;
-  }
-  #menu {
-    height:625px;
-    margin-top:-380px;
-  }
-  #menuContainer {
-    height:100px;
-    padding-top:280px;
-  }
-
-  .mt-menu {
-    padding-bottom:50px;
-  }
-
-  #menuRow {
-    /* padding-bottom:50px; */
-  }
-  #menuTable {
-    height:90%;
-    width:100%;
-  }
-
-  #contact {
-    padding-top:180px;
-  }
-
-  #contactDiv {
-    background-color:black;
-    opacity:0.9;
-    bottom:60px;
-  }
-  #mapDiv {
-    margin-top:30px;
-    margin-right:200px;
-  }
-  #footer {
-    width:630px;
-    margin-left:-100px;
-  }
-  .col-4-edited {
-    height:30rem;
-
-  }
-}
-
-@media (min-width: 632px) {
-  #navContainer {
-    margin-right:170px;
-  }
-  #navContainer {
-    margin-right:-20px;
-  }
-  #aboutPics {
-    height:600px;
-
-  }
-  #aboutContainer {
-    height:100px;
-    top:0px;
-    margin-top:-80px;
-    margin-bottom:100px;
-  }
-  #menu {
-    height:625px;
-    margin-top:-290px;
-  }
-  #menuContainer {
-    height:100px;
-    padding-top:280px;
-  }
-
-  .mt-menu {
-    padding-bottom:50px;
-  }
-
-  #menuRow {
-    /* padding-bottom:50px; */
-  }
-  #menuTable {
-    height:90%;
-    width:100%;
-  }
-
-  #contact {
-    padding-top:180px;
-  }
-
-  #contactDiv {
-    background-color:black;
-    opacity:0.9;
-    bottom:60px;
-  }
-  #mapDiv {
-    margin-top:30px;
-    margin-right:200px;
-  }
-  #footer {
-    width:710px;
-    margin-left:-120px;
-  }
-  .col-4-edited {
-    height:30rem;
-
-  }
 
 }
 
-@media (min-width: 700px) {
-  #navContainer {
-    margin-right:-20px;
-  }
-  #aboutPics {
-    height:600px;
-  }
-  #aboutContainer {
-    height:100px;
-    top:0px;
-    margin-top:-80px;
-  }
-  #menu {
-    height:625px;
-    margin-top:-290px;
-  }
-  #menuContainer {
-    height:100px;
-    margin-top:-40px;
-  }
+@media (min-width: 576px) {
 
-  #menuRow {
-    padding-bottom:70px;
-  }
-  #menuTable {
-    height:90%;
-    width:100%;
-  }
 
-  #contact {
-    padding-top:180px;
-  }
+}
 
-  #contactDiv {
-    background-color:black;
-    opacity:0.9;
-    bottom:30px;
-    margin-left:-170px;
-  }
-  #mapDiv {
-    margin-right:100px;
-  }
-  #footer {
-    width:850px
-    margin-left:-120px;
-  }
+@media (min-width: 768px) {
+
 }
 
 @media (min-width: 992px) {
-  #navContainer {
-    margin-right:170px;
-  }
-  #navbarResponsive {
-    margin-right:-150px;
-  }
-  #aboutPics {
-    height:600px;
-  }
-  #aboutContainer {
-    height:100px;
-    top:0px;
-    margin-top:-80px;
-  }
-  #menu {
-    height:625px;
-    margin-top:-290px;
-  }
-  #menuContainer {
-    height:100px;
-    margin-top:-40px;
-  }
 
-  #menuRow {
-    padding-bottom:300px;
-  }
-  #menuTable {
-    height:90%;
-    width:100%;
-    margin-bottom:200px;
-  }
-
-  #contact {
-    padding-top:180px;
-  }
-
-  #contactDiv {
-    background-color:black;
-    opacity:0.9;
-    width:100%;
-    bottom:30px;
-  }
-  #mapDiv {
-    margin-right:140px;
-  }
-  #footer {
-    width:1115px
-    margin-left:-120px;
-  }
 }
 
 @media (min-width: 1200px) {
-  #aboutPics {
-    height:600px;
+  #navTitle {
+    padding-right: 10rem;
   }
+  #navContainer {
+  }
+  #navbarResponsive {
+  }
+  #aboutPics {
+    margin-bottom:4rem !important;
+  }
+
   #aboutContainer {
     height:100px;
     top:0px;
-    margin-top:-80px;
-    margin-bottom:-200px;
+    margin-top:5rem !important;
+    margin-bottom:6rem !important;
   }
   #menu {
-    height:625px;
-    margin-top:-290px;
-  }
-  #menuContainer {
-    height:100px;
-    margin-top:-300px;
+    padding-top: 4rem !important;
+    margin-top:0rem !important;
+    align-items: center;
+    margin-bottom:0 !important;
+    margin-right:10rem !important;
+    margin-left:10rem !important;
   }
 
-  #menuRow {
-    padding-bottom:300px;
+  #menuContainer {
+    height:1000px;
+
   }
+
   #menuTable {
     height:90%;
     width:100%;
-    margin-bottom:-300px;
+  }
+
+  #portfolio {
+    margin-top:5rem !important;
+    margin-bottom:0rem;
   }
 
   #contact {
-    padding-top:180px;
+    padding-top: 10rem !important;
+    margin-right:10px;
+    margin-left:10px;
+    margin-bottom: 10rem !important;
+  }
+
+  #contactRow {
+    align-items: center;
+  }
+
+  #contactContainer {
+    margin-top:-4rem !important;
+    margin-bottom: 2rem !important;
   }
 
   #contactDiv {
     background-color:black;
     opacity:0.9;
     width:100%;
-    bottom:30px;
-    margin-left:20px;
-    height:400px;
+    height:350px;
   }
 
-  #footer {
-    width:1450px;
-    margin-left:-180px;
+  #mapDiv {
+    margin-right:8rem !important;
+  }
+  .small {
+    text-align: center !important;
+  }
+
+  .bg-light {
+    
   }
 }
