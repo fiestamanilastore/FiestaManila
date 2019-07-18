@@ -10831,7 +10831,9 @@ header.masthead h1 {
   padding-bottom: 1rem !important;
 }
 
-/* @media (min-width:375px) {
+
+
+@media (min-width:325px) {
   #navTitle {
     padding-right: 10rem;
   }
@@ -10903,7 +10905,7 @@ header.masthead h1 {
     margin-right:9rem !important;
   }
 
-} */
+}
 
 @media (min-width: 576px) {
   #navTitle {
