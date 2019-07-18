@@ -10952,6 +10952,10 @@ header.masthead h1 {
 }
 
 @media (min-width: 481px) {
+  header.masthead {
+    background-position: top !important;
+    background-size: 675px 400px !important;
+  }
   #navTitle {
     padding-right: 10rem;
   }
@@ -10967,26 +10971,44 @@ header.masthead h1 {
   #aboutContainer {
     height:100px;
     top:0px;
-    margin-top:5rem !important;
+    margin-top:3rem !important;
     margin-bottom:8rem !important;
   }
   #menu {
-    padding-top: 4rem !important;
+    padding-top: 0rem !important;
     margin-top:0rem !important;
     align-items: center;
-    margin-bottom:30rem !important;
+    margin-bottom:10rem !important;
     margin-right:5rem !important;
     margin-left:5rem !important;
   }
 
   #menuContainer {
-    height:1650px;
+    height:1950px;
+  }
+
+  i {
+    margin-left:0px !important;
+  }
+
+  h3 {
+    margin-left:-80px !important;
+    width:330px !important;
   }
 
   #menuTable {
     height:90%;
     width:100%;
     border: 4px solid black;
+    margin-left:-20px !important;
+    margin-bottom:30px !important;
+  }
+  #menuTable1 {
+    height:90%;
+    width:100%;
+    border: 4px solid black;
+    margin-left:0px !important;
+    margin-bottom:0px !important;
   }
 
   tr {
@@ -11006,9 +11028,13 @@ header.masthead h1 {
     margin-right:10rem !important;
     margin-left: 10rem !important;
   }
-
+  .container-fluid {
+    display: inline-block;
+    width:400px !important;
+    margin-left:-80px !important;
+  }
   #contact {
-    padding-top: 10rem !important;
+    padding-top: 0rem !important;
     margin-right:10px;
     margin-left:10px;
     margin-bottom: 10rem !important;
@@ -11034,10 +11060,17 @@ header.masthead h1 {
     margin-top: 3rem !important;
     margin-right:9rem !important;
   }
-
+  iframe {
+    width:580px !important;
+  }
 }
 
 @media (min-width: 641px) {
+
+  header.masthead {
+    background-position: top !important;
+    background-size: 800px 600px !important;
+  }
   #navTitle {
     padding-right: 10rem;
   }
@@ -11057,7 +11090,7 @@ header.masthead h1 {
     margin-bottom:8rem !important;
   }
   #menu {
-    padding-top: 4rem !important;
+    padding-top: 0rem !important;
     margin-top:0rem !important;
     align-items: center;
     margin-bottom:45rem !important;
@@ -11066,13 +11099,31 @@ header.masthead h1 {
   }
 
   #menuContainer {
-    height:1000px;
+    height:500px;
+  }
+
+  i {
+    margin-left:0px !important;
+  }
+
+  h3 {
+    margin-left:-120px !important;
+    width:330px !important;
   }
 
   #menuTable {
     height:90%;
     width:100%;
     border: 4px solid black;
+    margin-left:-60px !important;
+    margin-bottom:0px !important;
+  }
+  #menuTable1 {
+    height:90%;
+    width:100%;
+    border: 4px solid black;
+    margin-left:-30px !important;
+    margin-bottom:0px !important;
   }
 
   tr {
@@ -11091,6 +11142,12 @@ header.masthead h1 {
     margin-bottom:0rem;
     margin-right:10rem !important;
     margin-left: 10rem !important;
+  }
+
+  .container-fluid {
+    display: inline-block;
+    width:100% !important;
+    margin-left:-0px !important;
   }
 
   #contact {
@@ -11120,9 +11177,17 @@ header.masthead h1 {
     margin-top: 3rem !important;
     margin-right:16rem !important;
   }
+  iframe {
+    width:600px !important;
+  }
 }
 
 @media (min-width: 961px) {
+
+  header.masthead {
+    background-position: center !important;
+    background-size:  cover !important;
+  }
   #navTitle {
     padding-right: 10rem;
   }
@@ -11154,10 +11219,28 @@ header.masthead h1 {
     height:1000px;
   }
 
+  i {
+    margin-left:0px !important;
+  }
+
+  h3 {
+    margin-left:0px !important;
+    width:330px !important;
+  }
+
   #menuTable {
     height:90%;
     width:100%;
     border: 4px solid black;
+    margin-left:0px !important;
+    margin-bottom:0px !important;
+  }
+  #menuTable1 {
+    height:90%;
+    width:100%;
+    border: 4px solid black;
+    margin-left:0px !important;
+    margin-bottom:0px !important;
   }
 
   tr {
@@ -11176,6 +11259,12 @@ header.masthead h1 {
     margin-bottom:0rem;
     margin-right:10rem !important;
     margin-left: 10rem !important;
+  }
+
+  .container-fluid {
+    display: inline-block;
+    width:100% !important;
+    margin-left:-0px !important;
   }
 
   #contact {
@@ -11205,6 +11294,9 @@ header.masthead h1 {
     margin-top: 0rem !important;
     margin-right:8rem !important;
   }
+  iframe {
+    width:600px !important;
+  }
 }
 
 
@@ -11217,6 +11309,12 @@ header.masthead h1 {
   #navbarResponsive {
     background-color: transparent;
   }
+
+  header.masthead {
+    background-position: center !important;
+    background-size:  cover !important;
+  }
+
   #aboutPics {
     margin-bottom:4rem !important;
   }
@@ -11237,13 +11335,31 @@ header.masthead h1 {
   }
 
   #menuContainer {
-    height:1100px;
+    height:1200px;
+  }
+
+  i {
+    margin-left:0px !important;
+  }
+
+  h3 {
+    margin-left:-40px !important;
+    width:330px !important;
   }
 
   #menuTable {
     height:90%;
     width:100%;
     border: 4px solid black;
+    margin-left:0px !important;
+    margin-bottom:0px !important;
+  }
+  #menuTable1 {
+    height:90%;
+    width:100%;
+    border: 4px solid black;
+    margin-left:0px !important;
+    margin-bottom:0px !important;
   }
 
   tr {
@@ -11262,6 +11378,12 @@ header.masthead h1 {
     margin-bottom:0rem;
     margin-right:10rem !important;
     margin-left: 10rem !important;
+  }
+
+  .container-fluid {
+    display: inline-block;
+    width:100% !important;
+    margin-left:-0px !important;
   }
 
   #contact {
@@ -11291,9 +11413,19 @@ header.masthead h1 {
     margin-top: 0rem !important;
     margin-right:8rem !important;
   }
+
+  iframe {
+    width:600px !important;
+  }
 }
 
 @media(min-width:1281px) {
+
+  header.masthead {
+    background-position: center !important;
+    background-size:  cover !important;
+  }
+
   #navTitle {
     padding-right: 10rem;
   }
@@ -11324,6 +11456,16 @@ header.masthead h1 {
     height:1000px;
   }
 
+  i {
+    margin-left:0px !important;
+  }
+
+  h3 {
+    margin-left:0px !important;
+    width:330px !important;
+  }
+
+
   #menuTable {
     height:90%;
     width:100%;
@@ -11364,6 +11506,11 @@ header.masthead h1 {
     margin-bottom: 2rem !important;
   }
 
+  .container-fluid {
+    display: inline-block;
+    width:100% !important;
+    margin-left:-0px !important;
+  }
   #contactDiv {
     background-color:black;
     opacity:0.9;
@@ -11374,5 +11521,8 @@ header.masthead h1 {
   #mapDiv {
     margin-top: 0rem !important;
     margin-right:8rem !important;
+  }
+  iframe {
+    width:600px !important;
   }
 }
