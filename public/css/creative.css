@@ -10848,14 +10848,14 @@ header.masthead h1 {
     height:100px;
     top:0px;
     margin-top:5rem !important;
-    margin-bottom:8rem !important;
+    margin-bottom:10rem !important;
   }
   #menu {
     padding-top: 4rem !important;
     margin-top:0rem !important;
     align-items: center;
-    margin-bottom:10rem !important;
-    margin-right:5rem !important;
+    margin-bottom:15rem !important;
+    margin-right:7rem !important;
     margin-left:5rem !important;
   }
 
@@ -10866,20 +10866,6 @@ header.masthead h1 {
   #menuTable {
     height:90%;
     width:100%;
-  }
-
-  #portfolio {
-    margin-top:0rem !important;
-    margin-bottom:0rem;
-    margin-right:10rem !important;
-    margin-left: 10rem !important;
-  }
-
-  #contact {
-    padding-top: 10rem !important;
-    margin-right:10px;
-    margin-left:10px;
-    margin-bottom: 10rem !important;
   }
 
   #contactRow {
@@ -10895,12 +10881,7 @@ header.masthead h1 {
     background-color:black;
     opacity:0.9;
     width:100%;
-    height:460px;
-  }
-
-  #mapDiv {
-    margin-top: 3rem !important;
-    margin-right:9rem !important;
+    height:500px;
   }
 
 }
