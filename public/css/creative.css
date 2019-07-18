@@ -10840,6 +10840,11 @@ header.masthead h1 {
   #navbarResponsive {
     background-color: rgba(255, 255, 255, 0.7);
   }
+
+  header.masthead {
+    background-position: top !important;
+    background-size: 375px 600px !important;
+  }
   #aboutPics {
     margin-bottom:0rem !important;
   }
