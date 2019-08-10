@@ -6,10 +6,28 @@ var bodyParser = require('body-parser');
 var expressValidator = require('express-validator');
 var path = require('path');
 var flash = require('connect-flash');
+var mongoose = require('mongoose');
+var passport = require('passport');
+var config = require('./config/database');
 var port = process.env.PORT || 3000;
+
+mongoose.connect(config.database);
+let db = mongoose.connection;
+
+db.once('open', function(){
+  console.log('Connected to MongoDB');
+})
+
+//Check for db errors
+db.on('error', function(err){
+  console.log(err);
+})
 
 // initialize express
 var app = express();
+
+// bring in models
+var User = require('./models/user');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -48,8 +66,39 @@ app.use(expressValidator({
   }
 }));
 
+require('./config/passport')(passport);
+app.use(passport.initialize());
+app.use(passport.session());
+
+var isAuthenticated = false;
+
 app.get('/', function(req, res) {
   res.render('index');
+});
+
+app.get('/edit', function(req, res) {
+  if(isAuthenticated == false){
+    res.redirect('login');
+  }else {
+    res.render('edit');
+  }
+});
+
+app.get('/login', function(req, res) {
+  res.render('login');
+})
+
+app.post('/login', function(req, res, next){
+  var username = req.body.username;
+  var password = req.body.password;
+
+  if(username=="admin" && password=="domingoe"){
+    console.log("password matched");
+    isAuthenticated = true;
+    res.redirect('edit');
+  }else {
+    res.redirect('login');
+  }
 });
 
 var server = app.listen(port, function() {
