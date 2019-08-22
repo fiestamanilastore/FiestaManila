@@ -10937,7 +10937,7 @@ header.masthead h1 {
     background-color:black;
     opacity:0.9;
     width:100%;
-    height:600px;
+    height:400px;
   }
 
   .col-4-edited {
@@ -10951,6 +10951,7 @@ header.masthead h1 {
   #mapDiv {
     margin-top: 3rem !important;
     margin-right:9rem !important;
+    height:250px;
   }
 
   iframe {
