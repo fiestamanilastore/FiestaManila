@@ -10832,6 +10832,7 @@ header.masthead h1 {
 }
 
 @media (min-width:320px) {
+
   #navTitle {
     padding-right: 10rem;
   }
