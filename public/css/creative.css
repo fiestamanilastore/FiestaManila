@@ -10636,18 +10636,18 @@ hr.light {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 2);
     font-weight: bold;
   }
   #mainNav .navbar-brand:hover {
-    color: #fff;
+    color: 	#FF6347;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 2);
     padding: 0 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fff;
+    color: 	#FF6347;
   }
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
@@ -10774,4 +10774,22 @@ header.masthead h1 {
   display: inline-block;
   font-size: 16px;
   border-radius: 25px;
+}
+
+@media (min-width: 375px) {
+  iframe {
+    width:350px;
+  }
+  #mainNav .navbar-brand {
+    font-size:1.5rem !important;
+  }
+}
+
+@media (min-width: 500px) {
+  iframe {
+    width:600px;
+  }
+  #mainNav .navbar-brand {
+    font-size:2.7rem !important;
+  }
 }
