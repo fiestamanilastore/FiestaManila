@@ -10784,6 +10784,10 @@ header.masthead h1 {
   #mainNav .navbar-brand {
     font-size:1.5rem !important;
   }
+  .slideshowSize {
+    max-width: 350px;
+    max-height: 400px;
+  }
 }
 
 @media (min-width: 500px) {
@@ -10793,6 +10797,11 @@ header.masthead h1 {
   #mainNav .navbar-brand {
     font-size:2.7rem !important;
   }
+  .slideshowSize {
+    max-width: 1000px;
+    max-height: 400px;
+  }
+}
 
   * {box-sizing:border-box}
 
