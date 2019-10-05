@@ -17,16 +17,12 @@
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
 
-  <!-- Plugin CSS -->
-  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-
   <!-- Theme CSS - Includes Bootstrap -->
-  <link href="css/creative.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-
+  <link href="/css/creative.css" rel="stylesheet">
+  <link href="/css/main.css" rel="stylesheet">
 </head>
 
-<body id="page-top">
+<body id="page-top" onload="plusSlides(1)">
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
@@ -61,8 +57,6 @@
         <div class="col-lg-10 align-self-end">
         </div>
         <div class="col-lg-8 align-self-baseline">
-          <!-- <a class="fa fa-chevron-down js-scroll-trigger" style="font-size:42px;Color:Red;" href="#about"></a> -->
-          <!-- <a class="mastheadButton js-scroll-trigger" href="#about">See Below</a> -->
         </div>
       </div>
     </div>
@@ -71,7 +65,7 @@
   <!-- About Section -->
   <section class="page-section bg-primary" id="about">
     <div class="container">
-      <div class="row justify-content-center" id="aboutPics">
+      <div class="row justify-content-center" id="aboutPics" style="margin-top:-80px;">
         <div class="col-lg-8 text-center" id="aboutContainer">
           <h2 class="text-black mt-0" style="font-family: 'Permanent Marker', cursive; font-size:46px;">Fiesta Manila</h2>
           <h2 class="text-black mt-0" style="font-size:20px;">Southport Asia Mart</h2>
@@ -80,27 +74,78 @@
           <p class="text-red-50 mb-4" style="font-size:18px;color:red;font-weight:bold;">*****ALL YOU CAN EAT BUFFET!*****</p>
           <hr class="divider my-4">
         </div>
-        <!--Left-->
-        <div class="col-12 col-md-6">
-          <img class="img-fluid" src="img/portfolio/fullsize/main1.jpg" alt="" style="height:300px;width:500px;">
+
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 11</div>
+          <img src="img/portfolio/fullsize/main1.jpg" class = "slideshowSize">
         </div>
-        <!--Right-->
-        <div class="col-12 col-md-6">
-          <img class="img-fluid" src="img/portfolio/fullsize/main2.jpg" alt="" style="height:300px;width:500px;">
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 11</div>
+          <img src="img/portfolio/slideshow/main2.jpg" class = "slideshowSize">
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 11</div>
+          <img src="img/portfolio/slideshow/IMG_20190729_125706.jpg" class = "slideshowSize">
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 11</div>
+          <img src="img/portfolio/slideshow/IMG_20190729_125638.jpg" class = "slideshowSize">
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 11</div>
+          <img src="img/portfolio/slideshow/IMG_20190729_125621.jpg" class = "slideshowSize">
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">6 / 11</div>
+          <img src="img/portfolio/slideshow/IMG_20190729_125532.jpg" class = "slideshowSize">
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">7 / 11</div>
+          <img src="img/portfolio/slideshow/IMG_20190729_102007.jpg" class = "slideshowSize">
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">8 / 11</div>
+          <img src="img/portfolio/slideshow/IMG_20190722_180244.jpg" class = "slideshowSize">
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">9 / 11</div>
+          <img src="img/portfolio/slideshow/IMG_20190722_175011.jpg" class = "slideshowSize">
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">10 / 11</div>
+          <img src="img/portfolio/slideshow/IMG_20190722_174058.jpg" class = "slideshowSize">
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">11 / 11</div>
+          <img src="img/portfolio/slideshow/IMG_20190722_175011.jpg" class = "slideshowSize">
+        </div>
       </div>
+      <br>
     </div>
   </section>
 
   <!-- Menu Section -->
   <section class="page-section" id="menu" >
-    <div class="container">
+    <div class="container" style="margin-top:-60px;">
       <h2 class="text-center mt-0">Menu Selection</h2>
       <br>
       <p class="text-black-50 mb-4" style="font-size:18px;text-align:center;">Here are some of our popular dishes made daily, cooked to fulfill our customers' satisfaction.</p>
       <p class="text-red-50 mb-4" style="font-size:18px;text-align:center;color:red;">*****Prices vary based on container size for catering purposes.*****</p>
       <hr class="divider my-4">
-          <div class="row grid" style="background-color:#4682B4;padding-bottom:20px;">
-
+          <div class="row grid" style="background-color:#aea8ba;padding-bottom:20px;">
               <div class="col-md-6 all">
   <div class="single-menu">
     <div class="title-wrap d-flex justify-content-between">
@@ -443,35 +488,6 @@ Tokwa’t baboy is a typical Philippine appetizer. It consists of pork ears, por
         <!--Right-->
         <div class="col-12 col-md-6" id="mapDiv">
             <div class="google-map"><iframe width="600" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJMzCZvQwB2YgR5Kg8X_q_FH4&key=AIzaSyD0WUOlGgGAiMoBLXHVuACsU21372BcS8c " allowfullscreen></iframe></div>
-            <script>
-            var geocoder;
-            var map;
-            var address = "1616 SE 10th Ave, Ft Lauderdale, FL 33316";
-            function initMap() {
-            var map = new google.maps.Map(document.getElementById('map'), {
-              zoom: 17,
-              center: {lat: -34.397, lng: 150.644},
-              gestureHandling: 'none',
-              zoomControl: false
-            });
-            geocoder = new google.maps.Geocoder();
-            codeAddress(geocoder, map);
-            }
-
-            function codeAddress(geocoder, map) {
-            geocoder.geocode({'address': address}, function(results, status) {
-              if (status === 'OK') {
-                map.setCenter(results[0].geometry.location);
-                var marker = new google.maps.Marker({
-                  map: map,
-                  position: results[0].geometry.location
-                });
-              } else {
-                alert('Geocode was not successful for the following reason: ' + status);
-              }
-            });
-            }
-            </script>
         </div>
       </div>
     </div>
@@ -488,10 +504,11 @@ Tokwa’t baboy is a typical Philippine appetizer. It consists of pork ears, por
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
   <!-- Custom scripts for this template -->
   <script src="js/creative.js"></script>
+  <script src="js/slideshow.js"></script>
+  <script src="js/map.js"></script>
 
 </body>
 
