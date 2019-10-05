@@ -10785,21 +10785,28 @@ header.masthead h1 {
     font-size:1.5rem !important;
   }
   .slideshowSize {
-    max-width: 350px;
-    max-height: 400px;
+    width: 350px;
+    height: 400px;
   }
 }
 
 @media (min-width: 500px) {
   iframe {
-    width:600px;
+    width:500px;
   }
   #mainNav .navbar-brand {
     font-size:2.7rem !important;
   }
   .slideshowSize {
-    max-width: 1000px;
-    max-height: 400px;
+    width: 500px;
+    height: 400px;
+  }
+}
+
+@media (min-width: 900px) {
+  .slideshowSize {
+    width: 700px;
+    height: 400px;
   }
 }
 
