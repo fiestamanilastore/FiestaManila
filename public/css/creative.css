@@ -10886,12 +10886,12 @@ header.masthead h1 {
   }
 
   @-webkit-keyframes fade {
-    from {opacity: .6}
+    from {opacity: .7}
     to {opacity: 1}
   }
 
   @keyframes fade {
-    from {opacity: .6}
+    from {opacity: .7}
     to {opacity: 1}
   }
 
