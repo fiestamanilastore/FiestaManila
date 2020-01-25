@@ -10837,12 +10837,14 @@ header.masthead h1 {
     height: 400px;
   }
   .columnMid {
-    width:70px;
+    width:700px;
     margin-right:auto;
     margin-left:auto;
     display:block;
   }
-
+  iframe {
+    width: 350px;
+  }
 }
 
 
@@ -10859,6 +10861,9 @@ header.masthead h1 {
   }
   .colImgMid {
     width:100%;
+  }
+  iframe {
+    width: 550px;
   }
 }
 
