@@ -14,7 +14,7 @@
     "express-session": "^1.15.6",
     "express-validator": "^5.3.0",
     "install": "^0.12.1",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "logger": "^0.0.1",
     "nodemon": "^1.18.4",
     "npm": "^6.4.1",
